@@ -1,5 +1,6 @@
 - name: install and run nginx package
   hosts: web
+  bacome: yes
   tasks:
   - name: install nginx
     ansible.builtin.package:
