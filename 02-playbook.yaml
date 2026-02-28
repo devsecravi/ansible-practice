@@ -1,0 +1,5 @@
+- name:
+  hosts: web
+  tasks:
+  - name: print hello world
+    msg: "Hello World"
