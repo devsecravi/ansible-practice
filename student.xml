@@ -1,0 +1,68 @@
+<students>
+<student>
+    <name>Divya</name>
+    <DOB>1999-01-01</DOB>
+    <Email>info@joindevops.com</Email>
+    <addresses>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <addresses>
+<student>
+<student>
+    <name>manoj</name>
+    <DOB>1999-01-01</DOB>
+    <Email>info@joindevops.com</Email>
+    <addresses>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <addresses>
+<student>
+<student>
+    <name>ravi</name>
+    <DOB>1999-01-01</DOB>
+    <Email>info@joindevops.com</Email>
+    <addresses>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <Address>
+         <PlatNo>104</PlatNo>
+         <street>tpt</street>
+         <city></city>
+    </Address>
+    <addresses>
+<student>
+</students>

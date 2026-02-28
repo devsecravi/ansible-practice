@@ -1,0 +1,21 @@
+student:
+- name: "abc"
+  dob: "1990-1-11"
+  MobileNumber: 1234556
+  addresses:
+  - platno: 2345
+    street: "ahsath nagar"
+    city: "tirupati"
+  - platno: 2345
+    street: "ahsath nagar"
+    city: "tirupati"
+- name: "abc"
+  dob: "1990-1-11"
+  MobileNumber: 1234556
+  addresses:
+  - platno: 2345
+    street: "ahsath nagar"
+    city: "tirupati"
+  - platno: 2345
+    street: "ahsath nagar"
+    city: "tirupati"

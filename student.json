@@ -1,0 +1,17 @@
+{
+    "first-name":"sdj",
+    "last-name":"djaks",
+    "addresses":[
+            {
+                "platno":104,
+                "type":"yhs",
+                "street":"hadad"
+            },
+            {
+                "platno":104,
+                "type":"yhs",
+                "street":"hadad"
+            }
+    ],
+    "skills":["java","devops","cloud"]
+}
