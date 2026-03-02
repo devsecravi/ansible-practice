@@ -5,10 +5,7 @@
     NUMBEROFVAR: "DEVSEC CONTENT"
     NUMBEROFSESSION: 15
     LIVE: true
-    VALUES: 
-     - Linux:
-     - Java:
-     - Ansible:
+    VALUES: "JAVA,ANSIBLE,LINUX"
   tasks:
    - name: print play per varaible
      ansible.builtin.debug:
