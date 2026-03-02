@@ -1,0 +1,13 @@
+- name: "playper varaible" 
+  hosts: local
+  connection: local
+  vars:
+   NUMBEROFVAR: "DEVSEC CONTENT"
+   NUMBEROFSESSION: 15
+   IS-LIVE: true
+   VALUES: "JAVA,C,DEVOPS"
+  tasks:
+   ansible.builtin.debug:
+    name: print play per varaible
+      msg: "{{NUMBEROFVAR}},{{NUMBEROFSESSION}},{{IS-LIVE}, {{VALUES}}"
+    
