@@ -11,7 +11,7 @@
     private: no
   tasks:
     - name: print the ansible varable perfermance
-      #vars:
-      #  NAME: "ansible  from tasks"
+      vars:
+        NAME: "ansible  from tasks"
       ansible.builtin.debug:
         msg: "{{ NAME }}"
