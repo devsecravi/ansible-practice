@@ -1,7 +1,7 @@
 - name: prompt level varaible
   hosts: local
   connection: local
-  vars_prompt: 
+  vars-prompt: 
   - name: UserName
     prompt: "please enter your name"
     privat: false
