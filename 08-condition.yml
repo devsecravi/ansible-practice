@@ -7,4 +7,4 @@
     - name: print the greter then 5 sessons
       ansible.builtin.debug:
         msg: "yes, Seesiion is Greater then 5: {{ SESSION }}"
-      when: SESSION > 5
+      when: SESSION > 7
