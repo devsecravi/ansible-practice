@@ -12,6 +12,6 @@
       msg: |
       NUMBEROFVAR: "{{ NUMBEROFVAR }}"
       NUMBEROFSESSION: "{{ NUMBEROFSESSION }}"
-      IS-LIVE: "{{ IS-LIVE }}"
+      LIVE: "{{ LIVE }}"
       VALUES: "{{ VALUES }}"
     
