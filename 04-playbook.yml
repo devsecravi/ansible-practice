@@ -10,8 +10,8 @@
   - name: print play per varaible
     ansible.builtin.debug:
       msg: |
-      NUMBEROFVAR: {{NUMBEROFVAR}}
-      NUMBEROFSESSION: {{NUMBEROFSESSION}}
-      IS-LIVE: {{IS-LIVE}}
-      VALUES: {{VALUES}}
+      NUMBEROFVAR: {{ NUMBEROFVAR }}
+      NUMBEROFSESSION: {{ NUMBEROFSESSION }}
+      IS-LIVE: {{ IS-LIVE }}
+      VALUES: {{ VALUES }}
     
