@@ -7,11 +7,11 @@
     LIVE: true
     VALUES: "JAVA,ANSIBLE,LINUX"
   tasks:
-   - name: print play per varaible
-     ansible.builtin.debug:
-       msg: |
-       NUMBEROFVAR: "{{ NUMBEROFVAR }}"
-       NUMBEROFSESSION: "{{ NUMBEROFSESSION }}"
-       LIVE: "{{ LIVE }}"
-       VALUES: "{{ VALUES }}"
-    
+    - name: print play per varaible
+      ansible.builtin.debug:
+         msg: |
+           NUMBEROFVAR: "{{ NUMBEROFVAR }}"
+           NUMBEROFSESSION: "{{ NUMBEROFSESSION }}"
+           LIVE: "{{ LIVE }}"
+           VALUES: "{{ VALUES }}"
+
