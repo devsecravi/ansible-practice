@@ -1,7 +1,7 @@
 - name: practice
   hosts: local
   connection: local
-  filevars:
+  file_vars:
     filesread.yml
   tasks:
     - name: print the another example
