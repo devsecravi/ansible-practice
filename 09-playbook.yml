@@ -5,9 +5,8 @@
   tasks:
     - name: for looping conditions
       ansible.builtin.debug:
-        msg: "{{ NAME }}"
+        msg: "{{ item }}"
       loop:
-       NAME:
-        -RAMESH
-        -RAVI
-        -DIVYA
+       -RAMESH
+       -RAVI
+       -DIVYA
