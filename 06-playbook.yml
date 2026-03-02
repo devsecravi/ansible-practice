@@ -1,8 +1,8 @@
 - name: prompt level varaible
   hosts: local
   connection: local
-  
+
   tasks: 
    - name: print prompt level varaible
      ansible.builtin.debug:
-      msg: "username: {{ UserName }} paasswod: {{ password }}"
+      msg: "username: {{ name }}"
