@@ -9,5 +9,5 @@
   tasks:
    ansible.builtin.debug:
     name: print play per varaible
-      msg: "{{NUMBEROFVAR}},{{NUMBEROFSESSION}},{{IS-LIVE}, {{VALUES}}"
+      msg: "{{NUMBEROFVAR}} {{NUMBEROFSESSION}} {{IS-LIVE}  {{VALUES}}"
     
