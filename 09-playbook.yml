@@ -7,6 +7,6 @@
       ansible.builtin.debug:
         msg: "{{ items }}"
       loop:
-        -RAMESH
-        -RAVI
-        -DIVYA
+       -RAMESH
+       -RAVI
+       -DIVYA
