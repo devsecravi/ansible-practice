@@ -1,9 +1,8 @@
 - name: practice
   hosts: local
   connection: local
-  vars:
-    COURSE: "JAVA"
-    DURATION: 45
+  filevars:
+    filesread.yml
   tasks:
     - name: print the another example
       ansible.builtin.debug:
