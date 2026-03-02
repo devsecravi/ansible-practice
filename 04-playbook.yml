@@ -1,5 +1,5 @@
 - name: "playper varaible" 
-  hosts: local
+  hosts: localhost
   connection: local
   vars:
    NUMBEROFVAR: "DEVSEC CONTENT"
