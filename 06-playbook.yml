@@ -1,13 +1,13 @@
 - name: prompt level varaible
   hosts: local
   connection: local
-  vars-prompt: 
-  - name: UserName
-    prompt: "please enter your name"
-    privat: false
-  - name: password
-    prompt: "plase enter password"
-    privat: true
+  vars_prompt: 
+   - name: "UserName"
+     prompt: "please enter your name"
+     privat: no
+   - name: "password"
+     prompt: "plase enter password"
+     privat: yes
   tasks: 
    - name: print prompt level varaible
      ansible.builtin.debug:
