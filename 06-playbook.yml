@@ -4,11 +4,11 @@
   vars_prompt: 
    - name: "UserName"
      prompt: "please enter your name"
-     privat: no
+     private: no
    - name: "password"
      prompt: "plase enter password"
-     privat: yes
+     private: yes
   tasks: 
    - name: print prompt level varaible
      ansible.builtin.debug:
-     msg: "username: {{ UserName }} paasswod: {{ password }}"
+      msg: "username: {{ UserName }} paasswod: {{ password }}"
