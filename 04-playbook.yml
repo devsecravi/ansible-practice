@@ -1,20 +1,19 @@
-- name: "playper varaible" 
+- name: playper variable
   hosts: local
   connection: local
+
   vars:
-   NUMBEROFVAR: "DEVSEC CONTENT"
-   NUMBEROFSESSION: 15
-   LIVE: true
-   VALUES: 
-   - Linux:
-   - Java:
-   - Ansible:
+    NUMBEROFVAR: "DEVSEC CONTENT"
+    NUMBEROFSESSION: 15
+    LIVE: true
+    VALUES: "JAVA,C,DEVOPS"
+
   tasks:
-  - name: print play per varaible
-    ansible.builtin.debug:
-      msg: |
-      NUMBEROFVAR: "{{ NUMBEROFVAR }}"
-      NUMBEROFSESSION: "{{ NUMBEROFSESSION }}"
-      LIVE: "{{ LIVE }}"
-      VALUES: "{{ VALUES }}"
+    - name: print play per variable
+      ansible.builtin.debug:
+        msg: |
+          NUMBEROFVAR: "{{ NUMBEROFVAR }}"
+          NUMBEROFSESSION: "{{ NUMBEROFSESSION }}"
+          LIVE: "{{ LIVE }}"
+          VALUES: "{{ VALUES }}"
     
