@@ -1,8 +1,8 @@
 - name: playbook variable perference
   hosts: local
   connection: local
-  vars:
-    NAME: "ansible from play"
+  #vars:
+    #NAME: "ansible from play"
   #vars_files:
     #filesread.yml
   #vars_prompt:
