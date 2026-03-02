@@ -4,7 +4,7 @@
   vars:
    NUMBEROFVAR: "DEVSEC CONTENT"
    NUMBEROFSESSION: 15
-   IS_LIVE: true
+   LIVE: true
    VALUES: "JAVA,C,DEVOPS"
   tasks:
   - name: print play per varaible
