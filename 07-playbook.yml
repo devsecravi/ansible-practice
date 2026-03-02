@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: "ansible from play"
-  vars_files:
-    filesread.yml
+  #vars_files:
+    #filesread.yml
   vars_prompt:
   - name: NAME
     prompt: "please enter name"
