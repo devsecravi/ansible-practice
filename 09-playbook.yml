@@ -1,0 +1,12 @@
+- name: loop conditions
+  hosts: local
+  connection: local
+  
+  tasks:
+    - name: for looping conditions
+      ansible.builtin.debug:
+        msg: "{{ items }}"
+      loop:
+        -RAMESH
+        -RAVI
+        -DIVYA
