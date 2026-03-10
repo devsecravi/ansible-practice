@@ -5,6 +5,6 @@
     TEXT: "This is for Complete variable text"
     NUMBER: 456 
   tasks:
-  - name: print the varabiles
-    ansibilbe.builtin.debug:
-      msg: "{{ TEXT }} is print number is: {{ NUMBER }}"
+   - name: print the varabiles
+     ansibilbe.builtin.debug:
+       msg: "{{ TEXT }} is print number is: {{ NUMBER }}"
