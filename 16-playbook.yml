@@ -5,7 +5,7 @@
   - 17-playbook.yml  
   tasks:  
   - name: task level variables
-    vars: 
-      TRAINER:  "Siva Kumar Reddy"
+    #vars: 
+      #TRAINER:  "Siva Kumar Reddy"
     ansible.builtin.debug:
       msg:  "course is: {{ COURSE }}, duration is: {{ DURATION }}, trainer is: {{ TRAINER }}"
