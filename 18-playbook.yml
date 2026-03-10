@@ -5,11 +5,13 @@
   - name: username
     prompt: please enetr user name
     private: false
+
   - name: password
     prompt: please enter password
     private: true
+
   tasks:
-  - name: print username and password
+  - name: print info
     ansibile.builtin.debug:
       msg:  "username is: {{ username }}, password is: {{ password }}"
      
