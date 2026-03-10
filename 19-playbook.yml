@@ -4,4 +4,4 @@
   tasks:  
   - name: print the invetiory
     ansible.builtin.debug:  
-      msg:  "Course is: {{ COURSE }}" 
+      msg:  "Course is: {{ NAME }}" 
