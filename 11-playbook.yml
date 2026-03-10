@@ -1,10 +1,27 @@
-- name: playbook start with variable
-  hosts: local
-  connection: local
-  vars:
-    TEXT: "This is for Complete variable text"
-    NUMBER: 456 
-  tasks:
-   - name: print the varabiles
-     ansibilbe.builtin.debug:
-       msg: "{{ TEXT }} is print number is: {{ NUMBER }}"
+- name: "Ravi Dasari"
+  DOB: "1990-01-01"
+  mobileNumber: 123456
+  addresses: 
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hydrabad
+    type: current
+
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: "hydrabad"
+    type: perm
+
+- name: "Divya Dasari"
+  DOB: "2000-01-01"
+  mobileNumber: 456771
+  addresses: 
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: bangalore
+    type: current
+
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: bangalore
+    type: perm
