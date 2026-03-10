@@ -1,0 +1,10 @@
+- name: playbook start with variable
+  hosts: local
+  connection: local
+  vars:
+    TEXT: "This is for Complete variable text"
+    NUMBER: 456 
+  tasks:
+  - name: print the varabiles
+    ansibilbe.builtin.debug:
+      msg: "{{ TEXT }} is print number is: {{ NUMBER }}"
