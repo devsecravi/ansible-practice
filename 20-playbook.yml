@@ -3,8 +3,8 @@
   connection: local
   vars: 
     NAME: "Printing with Play level variable"
-  vars_files: 
-    filesread.yml
+  #vars_files: 
+    #filesread.yml
   vars_prompt:  
   - name: NAME
     prompt: enter name
