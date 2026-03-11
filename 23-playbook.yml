@@ -12,10 +12,6 @@
     - Shell
     - Ansible
     - Docker
-    SALARY:
-    - "50000"
-    - "60000"
-    - "70000"
   tasks:  
   - name: data type varibles
     ansible.builtin.debug:  
@@ -24,5 +20,4 @@
       duration: "{{ DURATION }}"
       details: "{{ DETAIALS }}"
       topics: "{{ TOPICS }}"
-      salaries: "{{ SALARY }}"
   
