@@ -2,9 +2,9 @@
   hosts:  local
   connection: local
   vars: 
-    AVARAGE:  5
+    NUMBER_OF_SESSIONS:  5
   tasks:  
   - name: condition for the loop
     ansible.builtin.debug:
       msg: "Yes, more than 5 sessions"
-    when: AVARAGE > 7
+    when: NUMBER_OF_SESSIONS > 7
