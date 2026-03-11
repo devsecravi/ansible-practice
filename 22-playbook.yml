@@ -17,7 +17,7 @@
     ansible.builtin.debug: 
       msg: |
         Program:  {{ PROGRAM }}
-        DURATION: {{ DURATION }}
-        IS_LIVE: {{ IS_LIVE }}
-        DETAIALS: {{ DETAIALS }}
-        TOPICS: {{ TOPICS }}
+        duration: {{ DURATION }}
+        is_live: {{ IS_LIVE }}
+        details: {{ DETAIALS }}
+        topics: {{ TOPICS }}
