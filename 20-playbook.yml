@@ -11,8 +11,8 @@
     private:  no
   tasks:  
   - name: testing which is first will Printing
-    vars:
-      NAME: "printing with tasks level" 
+    #vars:
+      #NAME: "printing with tasks level" 
     ansible.builtin.debug:
       msg: "{{ NAME }}"
   
