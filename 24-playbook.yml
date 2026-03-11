@@ -7,4 +7,4 @@
   - name: condition for the loop
     ansible.builtin.debug:
       msg: "Yes, more than 5 sessions"
-    when: AVARAGE > 6
+    when: AVARAGE > 7
