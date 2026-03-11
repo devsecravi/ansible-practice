@@ -1,0 +1,12 @@
+- name: check userid
+  hosts:  local
+  connection: local
+  tasks:  
+  - name: create user id
+    ansible.builtin.command: id roboshop
+    register: user_output
+    ignore_errors: true
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ user_output }}"
+
