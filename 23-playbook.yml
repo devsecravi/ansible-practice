@@ -24,4 +24,5 @@
       duration: "{{ DURATION }}"
       details: "{{ DETAIALS }}"
       topics: "{{ TOPICS }}"
+      salaries: "{{ SALARY }}"
   
