@@ -1,0 +1,23 @@
+- name: data type variable
+  hosts:  local
+  connection: local
+  vars: 
+    COURSE: "Ravi Dasari"
+    DURATION: "140 rs"
+    DETAIALS: 
+      MONTHS: 4
+      TRAINER:  "Ravi Dasari"
+    TOPICS: 
+    - Linux
+    - Shell
+    - Ansible
+    - Docker
+  tasks:  
+  - name: data type varibles
+    ansible.builtin.debug:  
+      msg: |
+      Course: "{{  COURSE }}"
+      duration: "{{ DURATION }}"
+      details: "{{ DETAIALS }}"
+      topics: "{{ TOPICS }}"
+  
