@@ -1,0 +1,18 @@
+- name: test varibles level
+  hosts:  local
+  connection: local
+  vars: 
+    NAME: "Printing with Play level variable"
+  vars_files: 
+    filesread.yml
+  vars_prompt:  
+  - name: NAME
+    prompt: enter name
+    private:  no
+  tasks:  
+  - name: testing which is first will Printing
+    vars:
+      NAME: "printing with tasks level" 
+    ansible.builtin.debug:
+      msg: "{{ NAME }}"
+  
