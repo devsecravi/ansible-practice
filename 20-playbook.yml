@@ -1,8 +1,8 @@
 - name: test varibles level
   hosts:  local
   connection: local
-  vars: 
-    NAME: "Printing with Play level variable"
+  #vars: 
+    #NAME: "Printing with Play level variable"
   #vars_files: 
     #filesread.yml
   #vars_prompt:  
