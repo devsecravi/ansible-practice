@@ -1,8 +1,7 @@
 - name: Hello World
   hosts:  local
   connection: local
-  become: yes
-  task: 
+  tasks: 
   - name: print hello World
     ansible.builtin.debug:  
       msg:  "{{ Hello World }}"
@@ -10,8 +9,7 @@
 - name: play 2
   hosts:  local
   connection: local
-  become: yes
-  task: 
+  tasks: 
   - name: print playbook 2 hello World
     ansible.builtin.debug:  
       msg:  "{{ hello world print playbook 2 }}"
