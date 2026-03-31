@@ -20,7 +20,4 @@
       src:  D:\shell-practice
       dest: D:\shell-roboshop
 
-  - name: unarche file
-    ansible.builtin.unarche:
-      src: Downloads/center-management.zip
-      dest: D:\shell-roboshop 
+ 
