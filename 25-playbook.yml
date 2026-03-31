@@ -19,8 +19,5 @@
       src:  D:\shell-roboshop
       dest: C:\Downloads
   
-  - name:  run and install package
-    ansible.builtin.dnf:
-      name: nginx
-      state:  present
+ 
     
