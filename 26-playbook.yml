@@ -15,9 +15,6 @@
     ansible.builtin.dnf:
       name:  nginx
       state: present
-  - name: copy from direction
-    ansible.builtin.copy: 
-      src:  D:\shell-practice
-      dest: D:\shell-roboshop
+  
 
  
