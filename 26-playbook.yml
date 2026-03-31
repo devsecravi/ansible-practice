@@ -11,3 +11,8 @@
     ansible.builtin.debug:
       msg: "{{ user_output }}"
 
+  - name: run command
+    ansible.builtin.dnf:
+      name:  nginx
+      state:  present
+
