@@ -24,8 +24,3 @@
       name: nginx
       state:  present
     
-  - name: unarche
-    ansible.builtin.unarche:  
-      src:  C:/Downloads/center-management.zip
-      dest: D:\ansible
-      remote_src: yes
