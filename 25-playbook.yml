@@ -13,3 +13,8 @@
     ansible.builtin.debug:
      msg: "Yes, package manager is Dibian"
     when: ansible_facts.os_family == "Debian"
+
+  - name: copy folder
+    ansible.builtin.copy:
+      src:  D:\shell-roboshop
+      dest: C:\Downloads
